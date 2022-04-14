@@ -1,0 +1,7 @@
+Bugs:
+  iframe not centering in chatbox
+Communication:
+  are you on?
+Features to be added:
+  Display Name
+  When the message is shared, the bar is cleared

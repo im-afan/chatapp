@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>thing</title>
+    <link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<script src="/scripts/sendmsg.js"></script>
+		
+    <div class="title">
+		  <h1>REPLROOM</h1>
+    </div>
+    <div class="desc">
+      <p id="desc">Chat with other replers identity-free! This program was a made by two people.</p></div>
+        <h3 id="DarkModetext">Dark Mode is OFF</h3>
+    <button class="bt" id="turnDark">Switch to dark mode</button>
+    <button class="bt" id="turnLight">Switch to light mode</button>
+      
+
+    <h3>Display Name: <input type='text' id='username'><button style="margin-left: 5px;" class="bt" id="saveUN">Save</button></h3>
+    
+    <div class="chatbox">
+		
+    <iframe src="messages.html" class="iframe"></iframe> 
+    <br>
+    <div class="messagesend">
+    <input type='text' id="message" class="message">
+		<button class="bt" id = "enter" onclick="sendMsg()">Share</button>
+    </div>
+    </div>
+      
+    <script src="sendmsg.js"></script>
+    <script src="username.js"></script>
+    <script src="darkmode.js"></script>
+		<!--<script src="awaitmsg.js"></script>-->
+	</body>
+</html>
